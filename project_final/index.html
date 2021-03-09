@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../mb=db/css/mdb.min.css">
+    <link rel="stylesheet" href="../mb=db/src/js/free/">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Project Final</title>
+</head>
+
+<body>
+
+    <!-- #################### HEADER ############################ -->
+    <header class="p-3">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="s-logo"></div>
+            <div class="s-input-wrap position-relative ">
+                <input type="text" class="col-12  rounded-pill border p-1 d-none d-sm-inline">
+                <img src="./image/search_icon.png" alt="" class="position-absolute rounded-pill   end-0">
+            </div>
+
+
+            <ul class="inline-list d-flex justify-content-evenly col-4 col-sm-3 col-lg-2 xl-2 align-items-end">
+                <li class="list-inline-item col-3 text-center me-3">
+                    <a href="" class="text-decoration-none">
+                        <img src="./image/account_icon.png" alt="" class="sm-img-fluid">
+                        <p class="d-none d-md-block s-font-14 text-secondary">Account</p>
+                    </a>
+                </li>
+                <li class="list-inline-item col-3 text-center me-3">
+                    <a href="" class="text-decoration-none">
+                        <img src="./image/orders_icon.png" alt="" class="sm-img-fluid">
+                        <p class="d-none d-md-block s-font-14 text-secondary">Orders</p>
+                    </a>
+                </li>
+                <li class="list-inline-item col-3 text-center">
+                    <a href="" class="text-decoration-none ">
+                        <img src="./image/cart_icon.png" alt="" class="sm-img-fluid ">
+                        <p class="d-none d-md-block s-font-14 text-secondary ">Cart</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+
+    <!-- #################### /HEADER ############################ -->
+
+    <div class="container-fluid s-bg">
+
+        <!-- #################### Recommended Products ############################ -->
+        <div class="container-fluid">
+            <h3 class="fw-bold pt-2">
+                Recommended Products
+            </h3>
+            <div class=" d-flex justify-content-between">
+                <form action="" class="d-none d-sm-flex position-relative">
+                    <label for="">Selected Filters:</label>
+                    <div class="position-relative">
+                        <input type="button" value="Continental"
+                            class="rounded-pill border border-secondary pe-4 ps-2 col-12">
+                        <img src="./image/ex_icon.png" alt="" class="position-absolute end-0 p-1">
+                    </div>
+
+                </form>
+                <form action="" class="d-none d-sm-inline ">
+                    <label for="">Sort by:</label>
+                    <select name="" id="" class="rounded-pill bg-transparent ps-1 pe-1">
+                        <option value="Popularity" selected>Popularity</option>
+                        <option value="Popularity" selected>Price</option>
+                        <option value="Popularity" selected>Location</option>
+                    </select>
+
+                </form>
+            </div>
+            <hr class="pt-1 pt-sm-0 mb-4">
+
+        </div>
+        <!-- #################### / Recommended Products ############################ -->
+
+
+        <!-- #################### BEST SELLLERS ############################ -->
+        <div class="container-fluid">
+
+
+            <div class="row    flex-nowrap s-overflow">
+                <div class="col-10  col-md-6  border  border-3 position-relative s-bg-white s-bestsellers ">
+
+                    <!-- top orange sticker -->
+                    <div
+                        class="border col-6 col-sm-4 col-md-5 col-lg-4 s-bg-orange text-center fw-bold position-absolute s-position">
+                        Premium bestseller</div>
+                    <!-- /top orange sticker -->
+                    <div class="row justify-content-between">
+                        <!-- left side wheel image -->
+                        <div class="col-5 col-sm-3 col-md-5  col-lg-3  d-flex justify-content-center mt-3">
+                            <div class="s-wheel-img  position-relative">
+                                <img src="./image/Auto_wheel.png" alt="" class="position-absolute end-0 s-auto-wheel">
+                                <img src="./image/wheels.png" alt="" class="s-wheels-img">
+                            </div>
+                        </div>
+                        <!--/ left side wheel image -->
+
+                        <!-- right side item discription -->
+
+                        <div class="col-7 col-sm-9 col-md-7 col-lg-8 p-0">
+                            <!-- top row (premiunContact) -->
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                            <!-- / top row (premiunContact) -->
+
+                            <!-- second row simbol and number -->
+                            <div class="row ">
+                                <div class="col-3 col-lg-2">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-9 col-lg-4">
+                                    <p class="s-font-14 mb-1 s-font-16">
+                                        195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                    </p>
+                                    <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                                </div>
+                                <!-- / second row simbol and number -->
+
+                                <div class="col-3 text-center">
+                                    <div class="row">
+                                        <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                        <div class="col-lg-6 p-0 text-lg-start ltext-center">
+                                            <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                            <!-- <img src="./image/green_check.png" alt="" > -->
+                                        </div>
+
+                                    </div>
+                                    <div class="row d-none d-lg-block s-font-14 text-start">
+                                        <div class="s-font-16">
+                                            Price &#8362;340
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-3 text-center d-lg-none">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14">&#8362;340</p>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <p class="s-font-14 mb-0 s-font-16">Total</p>
+                                    <h6 class="fw-bold s-font-16">&#8362;1360</h6>
+                                </div>
+                            </div>
+
+                            <!-- second row simbol and number -->
+
+
+
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-evenly justify-content-lg-end">
+                        <!-- <div class="col-1"></div> -->
+                        <div class="col-6 col-md-5 col-lg-3 text-center ">
+                            <div class="butns border row p-0 input-group">
+                                <input type="button" value="-" class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                <input type="button" value="4" class="border-0 col-4 p-1 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-6 col-lg-5 col-xl-5 text-end">
+                            <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                                ">
+                                <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                                <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-10  col-md-6  border  border-3 position-relative s-bg-white s-bestsellers ">
+
+                    <!-- top orange sticker -->
+                    <div
+                        class="border col-6 col-sm-4 col-md-5 col-lg-4 s-bg-orange text-center fw-bold position-absolute s-position">
+                        Premium bestseller</div>
+                    <!-- /top orange sticker -->
+                    <div class="row justify-content-between">
+                        <!-- left side wheel image -->
+                        <div class="col-5 col-sm-3 col-md-5  col-lg-3  d-flex justify-content-center mt-3">
+                            <div class="s-wheel-img  position-relative">
+                                <img src="./image/Auto_wheel.png" alt="" class="position-absolute end-0 s-auto-wheel">
+                                <img src="./image/wheels.png" alt="" class="s-wheels-img">
+                            </div>
+                        </div>
+                        <!--/ left side wheel image -->
+
+                        <!-- right side item discription -->
+
+                        <div class="col-7 col-sm-9 col-md-7 col-lg-8  p-0">
+                            <!-- top row (premiunContact) -->
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                            <!-- / top row (premiunContact) -->
+
+                            <!-- second row simbol and number -->
+                            <div class="row ">
+                                <div class="col-3 col-lg-2">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-9 col-lg-4">
+                                    <p class="s-font-14 mb-1 s-font-16">
+                                        195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                    </p>
+                                    <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                                </div>
+                                <!-- / second row simbol and number -->
+
+                                <div class="col-3 text-center">
+                                    <div class="row">
+                                        <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                        <div class="col-lg-6 p-0 text-lg-start text-center">
+                                            <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                           
+                                        </div>
+
+                                    </div>
+                                    <div class="row d-none d-lg-block s-font-14 text-start">
+                                        <div class="s-font-16">
+                                            Price &#8362;340
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-3 text-center d-lg-none">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14">&#8362;340</p>
+                                </div>
+                                <div class="col-6 col-lg-3">
+                                    <p class="s-font-14 mb-0 s-font-16">Total</p>
+                                    <h6 class="fw-bold s-font-16">&#8362;1360</h6>
+                                </div>
+                            </div>
+
+                            <!-- second row simbol and number -->
+
+
+
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-evenly justify-content-lg-end">
+                        <!-- <div class="col-1"></div> -->
+                        <div class="col-6 col-md-5 col-lg-3 text-center ">
+                            <div class="butns border row p-0 input-group">
+                                <input type="button" value="-" class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                <input type="button" value="4" class="border-0 col-4 p-1 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-6 col-lg-5 col-xl-5 text-end">
+                            <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                                ">
+                                <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                                <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <!-- #################### / BEST SELLLERS ############################ -->
+
+
+        <!-- #################### ITEM LIST ############################ -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6  col-lg-12 s-item-height   s-bg-white mt-2 border border-3 s-border-color">
+                    <!--*********** first half of item ************ -->
+                    
+                    <!-- Continental title -->
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="text-center">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold text-center">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-2 ps-md-2 fs-4 fw-bold "></i>
+                        <p class="d-inline d-md-none fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>
+
+                    
+
+                </div>
+
+
+                <div class="col-12 col-sm-6  col-lg-12 s-item-height  s-bg-white mt-2 border border-3">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6 p-0">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock  <i class="bi bi-exclamation-circle bg-warning rounded-circle text-white"></i></p>
+                                    <div class="">
+                                    <p class="fw-bold mb-0 s-font-14">
+                                        8 Tires Left
+                                    </p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-0">Stock <i class="bi bi-exclamation-circle bg-warning rounded-circle text-white"></i></p>
+                            <p class="d-none d-lg-inline fw-bold">8 Tires left</p>
+                        </div>
+                        
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="text-center border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-2 ps-md-2 fs-4 fw-bold "></i>
+                        <p class="d-inline d-md-none fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 ">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6 p-0">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock<i class="bi bi-x-circle bg-danger rounded-circle text-white"></i> </p>
+                                    <div class="fw-bold s-font-14 w-100
+                                    p-0">
+                                       8 Tires Left 
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        <div class="text-center">
+                            <p class="mb-0">Stock <i class="bi bi-x-circle bg-danger rounded-circle text-white"></i></p>
+                            <p class="d-none d-lg-inline text-danger fw-bold">Back in 1 week!</p>
+                        </div>
+                       
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold text-center">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill bg-transparent border border-warning  border-2 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-bell-fill pe-3 ps-3 pe-md-2 ps-md-2 fs-4 fw-bold "></i>
+                        <p class="d-inline d-md-none fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 d-none d-sm-inline d-lg-none">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                        <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>    
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 d-none d-sm-inline d-lg-none">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                        <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div></div>
+
+                <div
+                    class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 d-none d-sm-inline d-lg-none">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                        <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>    
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 d-none d-sm-inline d-lg-none">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                        <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>    
+                </div>
+
+                <div
+                    class="col-12 col-sm-6 col-lg-12 s-item-height s-bg-white mt-2  border border-3 d-none d-sm-inline d-lg-none">
+                    <div class="row d-lg-none">
+                    
+
+                        <div class="col-6">
+                            <div class="row">
+                                <h6 class="fw-bold text-decoration-underline mt-2 mt-lg-4 s-font-20">Continental
+                                    PremiunContact&trade; 6</h6>
+                            </div>
+                    <!-- oe sign and stock -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="./image/oe.png" alt="oe sign">
+                                </div>
+                                <div class="col-6">
+                                    <p class="s-font-14 mb-0 col-lg-6 p-0 s-font-16">Stock </p>
+                                    <div class="">
+                                        <i class="bi bi-check-circle bg-success rounded-circle text-white"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-- buttons -->
+                            <div class="row border w-75 ms-1 mt-1">
+                                    <input type="button" value="-"
+                                        class="border-0 col-4 p-1 bg-transparent shadow-none ">
+                                    <input type="button" value="8" class="border-0 col-4 p-1 fw-bold">
+                                    <input type="button" value="+" class="border-0 col-4 bg-transparent p-1">
+                                </div>
+
+
+
+                            
+
+                        </div>
+                        <!-- ******** second half of item ************* -->
+                        <div class="col-6">
+                            <div class="row">
+                                <p class="s-font-14 mb-1 mt-2 s-font-16 ">
+                                    195/55 R15 85V <span class="d-none d-xl-inline">H</span>
+                                </p>
+                                <p class="s-font-14 mb-1 s-font-16">SUV</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <p class="s-font-14 mb-0">Price</p>
+                                    <p class="s-font-14  mb-0">&#8362;340</p>
+                                </div>
+                                <div class="col-8">
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0">
+                                        <h6 class="fw-bold s-font-16 mb-0 fs-5">&#8362;1360</h6>
+                                    </div>
+                                    <div class="s-font-14 mb-0">
+                                        <div class="s-font-14 mb-0 text-danger">Save &#8362;408!</div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                            <button class="rounded-pill s-bg-orange border border-white border-1  
+                               w-100 s-font-14 h-75 ">
+                                
+                                <p class=" fw-bold p-0 s-font-14">
+                                    <i class="bi bi-cart-plus-fill  fs-4 fw-bold p-0 "></i>
+                                    Add to Cart
+                                </p>
+                            </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <div class="d-none d-lg-flex justify-content-between p-lg-2 p-xl-3 align-items-center">
+                        <div class="">
+                            <p class="mb-0 text-decoration-underline fw-bold">Continental</p>
+                            <p class="mb-0 text-decoration-underline fw-bold">PremiumContact&trade; 6</p>
+                        </div>
+                       
+                        <div class=" ">
+                            <img src="./image/oe.png" class="s-oe-img"></img>
+                        </div>
+                        <div class="">
+                            <p class=" s-font-16 mb-0">195/55 R15 85V </p>
+                            <div class=""> SUV</div>
+                        </div>
+                        
+                        <p class="">Stock <i class="bi bi-check-circle bg-success rounded-circle text-white"></i></p>
+                        <p class="">Price &#8362;340</p>
+                        
+                       <div class="border p-0 d-flex "> 
+                                <input type="button" value="-" class="border-0 col-4 p-2 pe-3 ps-3 bg-transparent">
+                                <input type="button" value="4" class="border-0 col-4 p-2 pe-4 ps-3 fw-bold">
+                                <input type="button" value="+" class="border-0 col-4 bg-transparent p-2">
+
+                         </div> 
+                        
+                        <p class="">Total <span class="fw-bold fs-5">&#8362;1360</span></p>
+                        <button class="rounded-pill s-bg-orange border border-white  border-1 ps-2 pe-2 
+                        ">
+                        <i class="bi bi-cart-plus-fill pe-3 ps-3 pe-md-1 ps-md-1 fs-4 fw-bold "></i>
+                        <p class="d-none d-md-inline fw-bold ">Add to Cart</p>
+                    </button>
+
+                    </div>    
+                </div>
+                
+              <!-- #################### / ITEM LIST ############################ -->      
+                
+
+
+
+              <!-- ####################  LOAD MORE RESULTS ############################ -->
+              <div class="col-12 mt-4 p-0">
+                    <input type="button" value="Load More Results"
+                class="col-12 rounded-pill p-2 border border-2 bg-transperent mb-5 mb-lg-3 ">
+                </div>
+
+            </div>
+        
+
+        
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
